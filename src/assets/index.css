@@ -1,0 +1,22 @@
+/* src/assets/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuentes globales */
+body {
+  font-family: 'Inter', sans-serif; /* Cambia a tu fuente preferida */
+  background-color: #f9fafb; /* Color claro de fondo */
+  color: #374151; /* Color del texto */
+}
+
+/* Botones principales */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+
